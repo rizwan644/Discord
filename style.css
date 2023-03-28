@@ -1,0 +1,348 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+
+}
+.firstpage{
+    width: 100%;
+    background-color: rgb(76,76,231);
+    height: 650px;
+    background-image: url(background.svg);
+    background-size: 190%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    height: 25px;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    height: 90px;
+}
+.logo img{
+    width: 120px;
+    height: 25px;
+    padding-top: 25px;
+    padding-left: 250px;
+}
+.navbutton{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    height: 34px;
+    padding-top: 15px;
+    padding-left: 250px;
+}
+.navbutton a{
+    padding-left: 30px;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.login button{
+
+    margin-top: 20px;
+    margin-left: 300px;
+    padding: 13px  16px;
+    border-radius: 30px;
+    border: none;
+
+}
+.firstimage img{
+
+width: 700px;
+height: 448px;
+position: absolute;
+left: -235px;
+top: 248px;
+}
+.secondimage img{
+
+    width: 600px;
+    height: 448px;
+    position: absolute;
+    right: -220px;
+    top: 250px;
+
+}
+.maincontent{
+
+width: 700px;
+height: 400px;
+position: absolute;
+top: 90px;
+text-align: center;
+padding-left: 450px;
+    
+}
+.maincontent h1{
+
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    margin-top: 100px;
+
+}
+.maincontent p{
+    font-size: 15px;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    line-height: 30px
+
+
+}
+.one{
+    color: black;
+    border: none;
+    border-radius: 40px;
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px 35px;
+    margin-left: 490px;
+    font-size: 15px;
+    margin-top: 350px;
+    
+}
+
+.two{
+    color: white;
+    border: none;
+    font-size: 15px;
+    border-radius: 40px;
+    background-color: #000000;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 20px 35px;
+    
+}
+/*----------secondpage--------*/
+
+.secondpage{
+background-color: #fff;
+display: flex;
+height: 630px;
+width: 100%
+
+}
+
+.secondpage img{
+    padding-left: 120px;
+    padding-top: 150px;
+    background-size: cover;
+
+}
+.text-col{
+    padding-top: 200px;
+    padding-left: 200px;
+    
+}
+.text-col h1{
+    font-size: 50px;
+
+}
+.text-col p{
+    font-size: 20px;
+
+}
+/*----------thirdpage-------*/
+.thirdpage{
+    height: 630px;
+    background-color: #fff;
+    display: flex;
+    width: 100%
+    
+    }
+.thirdpage img{
+    padding-left: 120px;
+    padding-top: 150px;
+    background-size: cover;
+
+}
+.text-col{
+    padding-top: 200px;
+    padding-left: 200px;
+    
+}
+.text-col h1{
+    font-size: 50px;
+
+}
+.text-col p{
+    font-size: 20px;
+
+}
+/*----------fourthpage-------*/
+.fourthpage{
+    height: 630px;
+    background-color: #fff;
+    display: flex;
+    width: 100%
+
+    
+    }
+.fourthpage img{
+    padding-left: 120px;
+    padding-top: 150px;
+    background-size: cover;
+
+}
+.text-col{
+    padding-top: 200px;
+    padding-left: 200px;
+    
+}
+.text-col h1{
+    font-size: 50px;
+
+}
+.text-col p{
+    font-size: 20px;
+
+}
+/*----------------fifthpagee------------*/
+.fifthpage{
+    text-align: center;
+    background-color: rgba(169, 169, 169, 0.14);
+    height: 1190px;
+    width: 100%
+    
+    }
+.fifthpage h1{
+    padding-top: 80px;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fifthpage p{
+    font-size: 20px;
+}
+.fifthpage img{
+    padding-left: 3%;
+    width: 75%;
+}
+.fifthpage h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fifthpage button{
+    background-color: rgb(76,76,231);
+    color: #fff;
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+    
+}
+/*---------------footer---------*/
+.footer{
+    border: 2px black solid;
+    background-color: #23272A;
+    height: 690px;
+    width: 100%;
+    
+ }
+.footercontent{
+    display: flex;
+    width: 80%;
+    height: 60%;
+   margin: 5% 10%;
+}
+
+.Imagine{
+    width: 20%;
+    margin-left: 0;
+    color:  rgb(76,76,231);
+    
+    
+}
+.Imagine h1{
+    padding-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    
+}
+.tableftr{
+    width: 70%;
+    margin-left: 1%;
+    padding-top: 20px;
+}
+.Imagine img{
+    width: 9%;
+    margin-top: 17px;
+}
+.englishus{
+    font-size: 14px;
+    background: none;
+    border: none;
+    color: #fff;
+}
+.Imagine .fbimg{
+
+   width: 200px;
+
+}
+.tableftr td{
+    padding-left: 140px;
+    font-size: 15px;
+
+
+}
+.tableftr tr{
+    margin-top: 100px;
+    color: #fff;
+    line-height: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tableftr .td1{
+
+    color: rgb(76,76,231);
+}
+hr{
+    width: 80%;
+    background-color:  rgb(76,76,231);
+    border: none;
+    color: rgb(76,76,231);
+    height: 1px;
+
+}
+.final img{
+
+    width: 130px;
+    margin-left: 160px ;
+    margin-top: 20px;
+
+}
+.final button{
+    margin-left: 1000px;
+    width: 80px;
+    height: 40px;
+    border-radius: 39px;
+    background-color:  rgb(76,76,231);
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+.final button:hover{
+    background-color:  rgb(83, 123, 235);
+}
+
+
+
+
+
+
+ /*{
+    border: 1px solid green ;
+} */
+
